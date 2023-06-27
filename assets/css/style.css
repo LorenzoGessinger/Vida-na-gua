@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* BEGIN MENU */
+
+#header {
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+#menu {
+    display: flex;
+    gap: 2rem;
+}
+
+#menu a {
+    display: block;
+    padding: 0.5rem;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a {
+    color: rgb(228, 178, 54);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(126, 167, 14);
+    transition: 0.7s ease-in-out;
+}
+
+/* END MENU */
+
+/* BEGIN CONTENT INTRODUCTION */
+
+#introduction-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.place-img-center>.ocean-life {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.water-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+h1 {
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+p {
+    color: #FFFFFF;
+    padding: 5px;
+    text-align: center;
+}
+
+.place-img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-paragraph {
+    padding: 10px;
+    text-align: center;
+}
+
+/* END CONTENT INTRODUCTION */
+
+/* BEGIN OBEJECTIVES SECTION */
+
+#water-life {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(26, 26, 71);
+}
+
+#water-life>h1,
+h3 {
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.water-life-box {
+    padding-top: 3px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
+    padding: 0 5px 0 5px;
+    gap: 10px;
+}
+
+.box-paragraphs>p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 250px;
+    color: #FFFFFF;
+}
+
+.span-title {
+    color: #FFFFFF;
+    font-size: 3em;
+    font-style: italic;
+}
+
+#impacts-good-water {
+    height: 100vh;
+    width: 100%;
+}
+
+#impacts-good-water>h2 {
+    font-size: 2.6em;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-top: 75px;
+    color: rgb(9, 9, 38);
+}
+
+#impacts-good-water>p {
+    font-size: 1.2em;
+    color: black;
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+#scientific-method {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(26, 26, 71);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scientific-method>h2 {
+    font-size: 2.6em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 75px;
+    text-align: center;
+}
+
+.water-analysis-methodology {
+    border: 1px solid red;
+    margin-top: 50px;
+    width: auto;
+}
+
+#scientific-method-explanation {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.title-explanation-methodology {
+    color: rgb(26, 26, 71);
+    text-transform: uppercase;
+    font-size: 2.6em;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.paragraph-explanation-methodology {
+    font-size: 1.2em;
+    color: black;
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+#footer {
+    width: auto;
+    background-color: rgb(46, 44, 44);
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.footer-paragraph {
+    padding: 10px;
+    color: #c2bfbf;
+}
+
+.back-to-top {
+    position: fixed;
+    font-size: 1em;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #FFFFFF;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    border: 0.1rem solid rgb(0, 0, 0);
+    transform: rotate(-90deg);
+    margin-bottom: 5px;
+}
+
+/* END OBJECTIVES SECTION */
+
